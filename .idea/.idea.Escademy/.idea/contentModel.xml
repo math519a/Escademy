@@ -190,7 +190,6 @@
           <e p="esc_verificationcodes.cs" t="Include" />
           <e p="esc_wallet.cs" t="Include" />
         </e>
-        <e p="Escademy - Shortcut.lnk" t="Include" />
         <e p="Escademy.csproj" t="IncludeRecursive" />
         <e p="favicon.ico" t="Include" />
         <e p="fonts" t="Include">
