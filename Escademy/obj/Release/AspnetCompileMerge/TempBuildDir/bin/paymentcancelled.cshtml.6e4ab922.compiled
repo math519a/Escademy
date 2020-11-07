@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/Profiles/PaymentCancelled.cshtml" hash="ffffffffb3bdff6e" filehash="432644c605d" flags="110000" assembly="App_Web_c0p5afyb" type="ASP._Page_Views_Profiles_PaymentCancelled_cshtml">
+    <filedeps>
+        <filedep name="/Views/Profiles/PaymentCancelled.cshtml" />
+    </filedeps>
+</preserve>

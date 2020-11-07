@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Escademy.ViewModels.EarningListModel>
+  
+    @section scripts {
+        <script src="/Scripts/js/jquery-3.3.1.min.js" type="text/javascript" language="javascript"></script>
+        <script src="/Scripts/js/bootstrap.min.js" type="text/javascript" language="javascript"></script>
+        <script src="/Scripts/js/popper.min.js" type="text/javascript" language="javascript"></script>
+        <script src="/Scripts/js/vanta.js" type="text/javascript" language="javascript"></script>
+        <script src="/Scripts/js/bootstrap.min1.js" type="text/javascript" language="javascript"></script>
+        <script src="/Scripts/js/jquery.min.js" type="text/javascript" language="javascript"></script>
+        <script src="/Scripts/js/chat.js" type="text/javascript" language="javascript"></script>
+
+        <script type="text/javascript" language="javascript">
+          
+        </script>
+
+        <!-- FlexSlider -->
+        <script src="/Scripts/js/jquery.flexslider.js"></script>
+        <script src="/Scripts/js/helper-plugins.js"></script>
+        <script src="/Scripts/js/init.js"></script>
+
+    }
+    @section styles {
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="/Content/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/Content/css/all.css">
+        <link href="/Content/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Styles Rendered -->
+        <link href="/Content/css/cssb.css" rel="stylesheet">
+        <link href="/Content/css/custom-style.css" rel="stylesheet" />
+
+    }
+
+
+
+    
+        <table class="table table-hover" id="tableList">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Date)</th>
+                    <th>@Html.DisplayNameFor(model => model.For)</th>
+                    <th class="text-right">@Html.DisplayNameFor(model => model.Amount)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.For)
+                            <a href="@Url.Action("Details","Order", new { tx=item.TransactionId} )">(view order)</a>
+                        </td>
+                        <td class="text-right">
+                            $@Html.DisplayFor(modelItem => item.Amount).ToString().Replace(",",".")
+                        </td>
+                        @Html.HiddenFor(modelItem => item.UserId)
+                    </tr>
+                }
+            </tbody>
+        </table>
+ 

@@ -1,0 +1,126 @@
+﻿@using Escademy.Models;
+@{
+    ViewBag.Title = "Contact";
+
+    var users = new List<User>();
+    users = ViewBag.users;
+}
+
+@section scripts {
+    <!-- Start Conversation JS reference-->
+    <script src="/Scripts/conversation.js"></script>
+}
+@section styles {
+    <link rel="stylesheet" type="text/css" href="~/Content/cssContact/style.css">
+}
+@{ 
+/// <summary>
+/// Created By: Hans Krogh
+/// This is the implementaion of the contact us site, with prime members (Rasmus and Hans) Click on contact me will redirect user to chat, or require Log in from user
+/// TODO: Need to creat the correct redirect link on login, so it continues to chat.
+/// </summary>
+/// <param></param>
+/// <returns></returns>
+}
+<div class="container" style="padding: 50px; padding-bottom: 254px;" >
+    <div class="row">
+        <div class="col-md-4 col-lg-3">
+            <div class="contact-detail">
+                <h2 class="contact-heading">CONTACT <strong>DETAILS</strong></h2>
+                <ul>
+                    <li><label>Official-Email</label><div class="clearfix"></div> Official@escademy.com</li>
+                    <li><label>Support-Email</label><div class="clearfix"></div> Support@escademy.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8 col-lg-9 mt-sm-5 mt-md-0">
+            <div class="members-area">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="contact-heading">CONTACT <strong>MEMBERS</strong></h2>
+                    </div>
+                    @foreach (var user in ViewBag.users)
+                    {
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card mb-4 text-center">
+                                <div class="member-photo">
+                                    <img class="img-fluid" src="data:image/png;base64,@user.Picture" />
+                                </div>
+                                <h3>@user.FirstName @user.LastName</h3>
+                                <h4>Staff Member</h4>
+                                <a href="javascript:;" onclick="StartConversation(@user.Id);" class="btn btn-contact"><i class="fas fa-phone"></i> CONTACT ME</a>
+                            </div>
+                        </div>
+                    }
+
+
+
+
+
+                    @*
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card mb-4 text-center">
+                                <div class="member-photo">
+                                    <img class="img-fluid" src="~/Content/imagesContact/member2.jpg" />
+                                </div>
+                                <h3>Charlie E. Rousseau</h3>
+                                <h4>MANAGEMENT</h4>
+                                <a role="button" href="#" class="btn btn-contact"><i class="fas fa-phone"></i> CONTACT ME</a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card mb-4 text-center">
+                                <div class="member-photo">
+                                    <img class="img-fluid" src="~/Content/imagesContact/member3.jpg" />
+                                </div>
+                                <h3>Mark E. Ramirez</h3>
+                                <h4>HOD</h4>
+                                <a role="button" href="#" class="btn btn-contact"><i class="fas fa-phone"></i> CONTACT ME</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mt-5">
+                            <h2 class="contact-heading">LIST OF <strong>support MEMBERS</strong></h2>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card mb-4 text-center">
+                                <div class="member-photo">
+                                    <img class="img-fluid" src="~/Content/imagesContact/member4.jpg" />
+                                </div>
+                                <h3>Benjamin H. Clarke</h3>
+                                <h4>Staff Member</h4>
+                                <a role="button" href="#" class="btn btn-contact"><i class="fas fa-phone"></i> CONTACT ME</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card mb-4 text-center">
+                                <div class="member-photo">
+                                    <img class="img-fluid" src="~/Content/imagesContact/member5.jpg" />
+                                </div>
+                                <h3>David K. Turner</h3>
+                                <h4>Staff Member</h4>
+                                <a role="button" href="#" class="btn btn-contact"><i class="fas fa-phone"></i> CONTACT ME</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card mb-4 text-center">
+                                <div class="member-photo">
+                                    <img class="img-fluid" src="~/Content/imagesContact/member6.jpg" />
+                                </div>
+                                <h3>Frank J. Thomas</h3>
+                                <h4>Staff Member</h4>
+                                <a role="button" href="#" class="btn btn-contact"><i class="fas fa-phone"></i> CONTACT ME</a>
+                            </div>
+                        </div>
+
+                    *@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+f

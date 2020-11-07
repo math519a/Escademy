@@ -1,0 +1,61 @@
+﻿@model Escademy.ViewModels.EarningDataModel
+
+@section scripts {
+    <script src="/Scripts/js/jquery-3.3.1.min.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/js/bootstrap.min.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/js/popper.min.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/js/vanta.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/js/bootstrap.min1.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/js/jquery.min.js" type="text/javascript" language="javascript"></script>
+    <script src="/Scripts/js/chat.js" type="text/javascript" language="javascript"></script>
+
+    <script type="text/javascript" language="javascript">        
+    </script>
+
+    <!-- FlexSlider -->
+    <script src="/Scripts/js/jquery.flexslider.js"></script>
+    <script src="/Scripts/js/helper-plugins.js"></script>
+    <script src="/Scripts/js/init.js"></script>
+
+}
+@section styles {
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/css/all.css">
+    <link href="/Content/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Styles Rendered -->
+    <link href="/Content/css/cssb.css" rel="stylesheet">
+    <link href="/Content/css/custom-style.css" rel="stylesheet" />
+
+}
+<div class="whitebox white" id="earningsData">
+    <ul class="earning">
+        <li>
+            <div>Net Income</div>
+            <div class="price">$@Html.DisplayFor(model => model.NetIncome).ToString().Replace(",",".")</div>
+        </li>
+        <li>
+            <div>Withdrawn</div>
+            <div class="price">$@Html.DisplayFor(model => model.TotalWithdrawn).ToString().Replace(",",".")</div>
+        </li>
+        <li>
+            <div>Used for Purchases</div>
+            <div class="price">$0</div>
+        </li>
+        <li>
+            <div>Pending Clearance</div>
+            <div class="price">$@Html.DisplayFor(model => model.PendingClearances).ToString().Replace(",",".")</div>
+        </li>
+        <li>
+            <div>Available for Withdrawal</div>
+            <div class="price">$@Html.DisplayFor(model => model.AvailableForWithdrawal).ToString().Replace(",",".")</div>
+        </li>
+    </ul>
+    <div class="flclear"></div>
+</div>
+
+
+
+
+

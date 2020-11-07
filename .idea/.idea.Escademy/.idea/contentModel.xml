@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Frimann\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Frimann\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Escademy.-1559701157.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Frimann\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Frimann\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Frimann\Desktop\11_CDIOFINAL" t="IncludeFlat">
+      <e p="Escademy" t="IncludeRecursive">
+        <e p="App_Data" t="Include">
+          <e p="bf_confirm_mail.html" t="Include" />
+          <e p="bf_resetpassword.html" t="Include" />
+          <e p="fonts" t="Include">
+            <e p="cera_gr.ttf" t="Include" />
+            <e p="cera_gr.woff" t="Include" />
+            <e p="cera_gr.woff2" t="Include" />
+            <e p="cera_gr_bold.woff" t="Include" />
+            <e p="cera_gr_bold.woff2" t="Include" />
+            <e p="cera_gr_light.woff" t="Include" />
+            <e p="cera_gr_light.woff2" t="Include" />
+            <e p="gobold_extra2_0.woff" t="Include" />
+            <e p="gobold_extra2_0.woff2" t="Include" />
+            <e p="specimen_files" t="Include">
+              <e p="grid_12-825-55-15.css" t="Include" />
+              <e p="specimen_stylesheet.css" t="Include" />
+            </e>
+            <e p="stylesheet.css" t="Include" />
+          </e>
+        </e>
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+          <e p="WebApiConfig.cs" t="Include" />
+        </e>
+        <e p="ApplicationInsights.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChatHub.cs" t="Include" />
+        <e p="CoachingImages" t="Include" />
+        <e p="CoachingVideos" t="Include" />
+        <e p="Content" t="Include">
+          <e p="album.css" t="Include" />
+          <e p="animated-bg.css" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="Chat.css" t="Include" />
+          <e p="cover.css" t="Include" />
+          <e p="css" t="Include">
+            <e p="all.css" t="Include" />
+            <e p="aos.css" t="Include" />
+            <e p="bootstrap-datepicker.css" t="Include" />
+            <e p="bootstrap.min.css" t="Include" />
+            <e p="bootstrap.min.css.map" t="Include" />
+            <e p="card-style.css" t="Include" />
+            <e p="Chat.css" t="Include" />
+            <e p="cssb.css" t="Include" />
+            <e p="custom-style.css" t="Include" />
+            <e p="EditProfile.css" t="Include" />
+            <e p="flexslider.css" t="Include" />
+            <e p="font-awesome.min.css" t="Include" />
+            <e p="fonts.css" t="Include" />
+            <e p="jquery-ui.css" t="Include" />
+            <e p="magnific-popup.css" t="Include" />
+            <e p="main.css" t="Include" />
+            <e p="mediaelementplayer.css" t="Include" />
+            <e p="owl.carousel.min.css" t="Include" />
+            <e p="owl.theme.default.min.css" t="Include" />
+            <e p="rangeslider.css" t="Include" />
+            <e p="smart_wizard.css" t="Include" />
+            <e p="style.css" t="Include" />
+            <e p="theme-responsive.min.css" t="Include" />
+            <e p="trustpilot.css" t="Include" />
+          </e>
+          <e p="cssContact" t="Include">
+            <e p="style.css" t="Include" />
+          </e>
+          <e p="deprecated" t="Include" />
+          <e p="fonts" t="Include">
+            <e p="fa-brands-400.woff2" t="Include" />
+            <e p="fa-solid-900.woff2" t="Include" />
+            <e p="flexslider-icon.eot" t="Include" />
+            <e p="flexslider-icon.svg" t="Include" />
+            <e p="flexslider-icon.ttf" t="Include" />
+            <e p="flexslider-icon.woff" t="Include" />
+            <e p="fontawesome-webfont.eot" t="Include" />
+            <e p="fontawesome-webfont.svg" t="Include" />
+            <e p="fontawesome-webfont.ttf" t="Include" />
+            <e p="fontawesome-webfont.woff" t="Include" />
+            <e p="fontawesome-webfont.woff2" t="Include" />
+            <e p="FontAwesome.otf" t="Include" />
+          </e>
+          <e p="hover.css" t="Include" />
+          <e p="Images" t="Include">
+            <e p="3D mockup.jpg" t="Include" />
+            <e p="40x40.png" t="Include" />
+            <e p="blacklogo.png" t="Include" />
+            <e p="blog.png" t="Include" />
+            <e p="bpti8_underhollow_blimxvi.jpg" t="Include" />
+            <e p="cards.png" t="Include" />
+            <e p="credit-card.jpg" t="Include" />
+            <e p="csgo-coaching-hover.png" t="Include" />
+            <e p="csgo-coaching.png" t="Include" />
+            <e p="fortnite-coaching-hover.png" t="Include" />
+            <e p="fortnite-coaching.png" t="Include" />
+            <e p="JPEG.jpg" t="Include" />
+            <e p="logo.png" t="Include" />
+            <e p="male-1354358_1280.png" t="Include" />
+            <e p="paypal-img.jpg" t="Include" />
+            <e p="portrait_1.png" t="Include" />
+            <e p="portrait_2.png" t="Include" />
+            <e p="portrait_3.png" t="Include" />
+            <e p="portrait_4.png" t="Include" />
+            <e p="sm-con2.png" t="Include" />
+            <e p="tra_student.png" t="Include" />
+            <e p="transparent-PNG-white text.png" t="Include" />
+            <e p="twitter.png" t="Include" />
+            <e p="wow-coaching-hover.png" t="Include" />
+            <e p="wow-coaching.png" t="Include" />
+          </e>
+          <e p="imagesContact" t="Include">
+            <e p="add.jpg" t="Include" />
+            <e p="member1.jpg" t="Include" />
+            <e p="member2.jpg" t="Include" />
+            <e p="member3.jpg" t="Include" />
+            <e p="member4.jpg" t="Include" />
+            <e p="member5.jpg" t="Include" />
+            <e p="member6.jpg" t="Include" />
+            <e p="transparent-PNG-white text.png" t="Include" />
+          </e>
+          <e p="login.css" t="Include" />
+          <e p="Order" t="Include">
+            <e p="css" t="Include">
+              <e p="bootstrap.css" t="Include" />
+              <e p="font-awesome.css" t="Include" />
+              <e p="progresscircle.css" t="Include" />
+              <e p="style.css" t="Include" />
+            </e>
+            <e p="Images" t="Include">
+              <e p="addfile-icon.png" t="Include" />
+              <e p="order.png" t="Include" />
+              <e p="placeholder.png" t="Include" />
+              <e p="profile.png" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="bootstrap.js" t="Include" />
+              <e p="jquery.js" t="Include" />
+              <e p="progresscircle.js" t="Include" />
+            </e>
+          </e>
+          <e p="profile-img.css" t="Include" />
+          <e p="Profilebuttons.css" t="Include" />
+          <e p="site-footer.css" t="Include" />
+          <e p="trustpilot.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AdminController.cs" t="Include" />
+          <e p="AuthController.cs" t="Include" />
+          <e p="BaseController.cs" t="Include" />
+          <e p="CoachController.cs" t="Include" />
+          <e p="CoachingController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="IPNController.cs" t="Include" />
+          <e p="OrderController.cs" t="Include" />
+          <e p="ProfilesController.cs" t="Include" />
+          <e p="TransactionController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="Dal" t="Include">
+          <e p="DBContext.Context.cs" t="Include" />
+          <e p="DBContext.Context.tt" t="Include" />
+          <e p="DBContext.cs" t="Include" />
+          <e p="DBContext.Designer.cs" t="Include" />
+          <e p="DBContext.edmx" t="Include" />
+          <e p="DBContext.edmx.diagram" t="Include" />
+          <e p="DBContext.tt" t="Include" />
+          <e p="esc_accounts.cs" t="Include" />
+          <e p="esc_chat.cs" t="Include" />
+          <e p="esc_faq.cs" t="Include" />
+          <e p="esc_games.cs" t="Include" />
+          <e p="esc_languages.cs" t="Include" />
+          <e p="esc_orders.cs" t="Include" />
+          <e p="esc_profilegames.cs" t="Include" />
+          <e p="esc_profilegamesFiles.cs" t="Include" />
+          <e p="esc_profilegamesPricing.cs" t="Include" />
+          <e p="esc_profilegamesRating.cs" t="Include" />
+          <e p="esc_profilelanguages.cs" t="Include" />
+          <e p="esc_profileTrophies.cs" t="Include" />
+          <e p="esc_serviceTypes.cs" t="Include" />
+          <e p="esc_Transactions.cs" t="Include" />
+          <e p="esc_userpasswordreset.cs" t="Include" />
+          <e p="esc_verificationcodes.cs" t="Include" />
+          <e p="esc_wallet.cs" t="Include" />
+        </e>
+        <e p="Escademy - Shortcut.lnk" t="Include" />
+        <e p="Escademy.csproj" t="IncludeRecursive" />
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="Enums.cs" t="Include" />
+          <e p="FloatExtensions.cs" t="Include" />
+          <e p="GlobalConnectionHandler.cs" t="Include" />
+          <e p="HtmlHelperExtensions.cs" t="Include" />
+          <e p="StringExtensions.cs" t="Include" />
+        </e>
+        <e p="Images" t="Include">
+          <e p="app-img.jpg" t="Include" />
+          <e p="loader.gif" t="Include" />
+          <e p="noImage.jpg" t="Include" />
+          <e p="sprite-edit.svg" t="Include" />
+        </e>
+        <e p="lang.Designer.cs" t="Include" />
+        <e p="lang.en.Designer.cs" t="Include" />
+        <e p="lang.en.resx" t="Include" />
+        <e p="lang.resx" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ChatMessage.cs" t="Include" />
+          <e p="ChatMessageResponse.cs" t="Include" />
+          <e p="CoachingFAQ.cs" t="Include" />
+          <e p="CoachOrder.cs" t="Include" />
+          <e p="ConnectionString.cs" t="Include" />
+          <e p="GameCoaching.cs" t="Include" />
+          <e p="Games.cs" t="Include" />
+          <e p="KeyGenerator.cs" t="Include" />
+          <e p="MailFactory.cs" t="Include" />
+          <e p="MessageDetail.cs" t="Include" />
+          <e p="PayPalConfiguration.cs" t="Include" />
+          <e p="PriceCalculator.cs" t="Include" />
+          <e p="ProfileGames.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserDetail.cs" t="Include" />
+          <e p="UserLanguage.cs" t="Include" />
+          <e p="UserLevel.cs" t="Include" />
+          <e p="UserLevelMananger.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="UnoEuro.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="chat - Copy.js" t="Include" />
+          <e p="chat.js" t="Include" />
+          <e p="conversation.js" t="Include" />
+          <e p="createcoaching.js" t="Include" />
+          <e p="deprecated" t="Include">
+            <e p="jquery-3.3.1.intellisense.js" t="Include" />
+            <e p="jquery-3.3.1.js" t="Include" />
+            <e p="jquery-3.3.1.min.js" t="Include" />
+            <e p="jquery-3.3.1.min.map" t="Include" />
+            <e p="jquery-3.3.1.slim.js" t="Include" />
+            <e p="jquery-3.3.1.slim.min.js" t="Include" />
+            <e p="jquery-3.3.1.slim.min.map" t="Include" />
+            <e p="jquery.validate-vsdoc.js" t="Include" />
+            <e p="jquery.validate.js" t="Include" />
+            <e p="jquery.validate.min.js" t="Include" />
+            <e p="jquery.validate.unobtrusive.js" t="Include" />
+            <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+            <e p="modernizr-2.8.3.js" t="Include" />
+          </e>
+          <e p="editprofile.js" t="Include" />
+          <e p="FAQFactory.js" t="Include" />
+          <e p="jquery-3.3.1.intellisense.js" t="Include" />
+          <e p="jquery-3.3.1.js" t="Include" />
+          <e p="jquery-3.3.1.min.js" t="Include" />
+          <e p="jquery-3.3.1.min.map" t="Include" />
+          <e p="jquery-3.3.1.slim.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.map" t="Include" />
+          <e p="jquery.signalR-2.4.1.js" t="Include" />
+          <e p="jquery.signalR-2.4.1.min.js" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="js" t="Include">
+            <e p="aos.js" t="Include" />
+            <e p="bootstrap-datepicker.min.js" t="Include" />
+            <e p="bootstrap.min.js" t="Include" />
+            <e p="bootstrap.min1.js" t="Include" />
+            <e p="chat.js" t="Include" />
+            <e p="fileinput.min.js" t="Include" />
+            <e p="helper-plugins.js" t="Include" />
+            <e p="init.js" t="Include" />
+            <e p="jquery-3.3.1.min.js" t="Include" />
+            <e p="jquery-migrate-3.0.1.min.js" t="Include" />
+            <e p="jquery-ui.js" t="Include" />
+            <e p="jquery.countdown.min.js" t="Include" />
+            <e p="jquery.flexslider.js" t="Include" />
+            <e p="jquery.magnific-popup.min.js" t="Include" />
+            <e p="jquery.min.js" t="Include" />
+            <e p="jquery.smartWizard.min.js" t="Include" />
+            <e p="jquery.stellar.min.js" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="mediaelement-and-player.min.js" t="Include" />
+            <e p="moment.min.js" t="Include" />
+            <e p="owl.carousel.min.js" t="Include" />
+            <e p="popper.min.js" t="Include" />
+            <e p="rangeslider.min.js" t="Include" />
+            <e p="slick.min.js" t="Include" />
+            <e p="typed.js" t="Include" />
+            <e p="vanta.js" t="Include" />
+          </e>
+          <e p="modernizr-2.8.3.js" t="Include" />
+          <e p="three.r92.min.js" t="Include" />
+          <e p="transaction.js" t="Include" />
+          <e p="vanta.waves.min.js" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="PayPalPaymentService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="AccountViewModel.cs" t="Include" />
+          <e p="BaseVM.cs" t="Include" />
+          <e p="CoachingDetailVM.cs" t="Include" />
+          <e p="CoachingVM.cs" t="Include" />
+          <e p="GameVM.cs" t="Include" />
+          <e p="OrderDataVM.cs" t="Include" />
+          <e p="OrderDetailVM.cs" t="Include" />
+          <e p="PriceHourModel.cs" t="Include" />
+          <e p="ReviewDetailModel.cs" t="Include" />
+          <e p="UserVM.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Admin" t="Include">
+            <e p="Coachings.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Auth" t="Include">
+            <e p="Applycoach.cshtml" t="Include" />
+            <e p="Checkout.cshtml" t="Include" />
+            <e p="confirm_mail.cshtml" t="Include" />
+            <e p="Forgotpass.cshtml" t="Include" />
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+            <e p="reset_password.cshtml" t="Include" />
+            <e p="Success.cshtml" t="Include" />
+          </e>
+          <e p="Coaching" t="Include">
+            <e p="_PricingView.cshtml" t="Include" />
+            <e p="Create.cshtml" t="Include" />
+            <e p="Dashboard.cshtml" t="Include" />
+            <e p="Detail.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="ManageOrders.cshtml" t="Include" />
+            <e p="MyOrders.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="_GetCoaches.cshtml" t="Include" />
+            <e p="About.cshtml" t="Include" />
+            <e p="Chat.cshtml" t="Include" />
+            <e p="Coaches.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="PrivacyPolicy.cshtml" t="Include" />
+            <e p="TermsOfService.cshtml" t="Include" />
+          </e>
+          <e p="IPN" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="Confirm.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="New.cshtml" t="Include" />
+          </e>
+          <e p="Profiles" t="Include">
+            <e p="_EarningsDataPartialView.cshtml" t="Include" />
+            <e p="_EarningsPartialView.cshtml" t="Include" />
+            <e p="_WithdrawalListDataPartialView.cshtml" t="Include" />
+            <e p="Earnings.cshtml" t="Include" />
+            <e p="PaymentCancelled.cshtml" t="Include" />
+            <e p="PaymentSuccessful.cshtml" t="Include" />
+            <e p="Profile.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="web.Debug.config" t="Include" />
+        <e p="web.Release.config" t="Include" />
+      </e>
+      <e p="Escademy.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

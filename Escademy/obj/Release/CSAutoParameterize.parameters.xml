@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EscademyDB-Web.config Connection String" description="EscademyDB Connection String used in web.config by the application to access the database." defaultValue="Server=mysql35.unoeuro.com;userid=terrack_com;password=qqgdc5pw;database=terrack_com_db;persistsecurityinfo=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hans\\Desktop\\Escademy\\Escademy\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='EscademyDB']/@connectionString" />
+  </parameter>
+  <parameter name="supportMail-Web.config Connection String" description="supportMail Connection String used in web.config by the application to access the database." defaultValue="noreply@escademy.com,HEJDETHERERENRANDOMLANGKODE99X" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hans\\Desktop\\Escademy\\Escademy\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='supportMail']/@connectionString" />
+  </parameter>
+  <parameter name="EscademyMDB-Web.config Connection String" description="EscademyMDB Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Dal.DBContext.csdl|res://*/Dal.DBContext.ssdl|res://*/Dal.DBContext.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=mysql35.unoeuro.com;user id=terrack_com;password=qqgdc5pw;persistsecurityinfo=True;database=terrack_com_db&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hans\\Desktop\\Escademy\\Escademy\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='EscademyMDB']/@connectionString" />
+  </parameter>
+</parameters>
